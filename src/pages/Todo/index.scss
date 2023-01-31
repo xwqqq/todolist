@@ -1,0 +1,39 @@
+.todo-page {
+  margin: 20px 0;
+}
+
+.todo-title {
+  width: 200px;
+  display: inline-block;
+  text-align: left;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  vertical-align: bottom;
+}
+
+.todo-item {
+  margin-bottom: 5px;
+  > div {
+    display: inline-block;
+  }
+}
+
+.todo-close {
+  cursor: pointer;
+  color: #e7e7e7;
+  width: 20px;
+
+  &:hover {
+    color: #000;
+  }
+}
+
+.todo-done {
+  cursor: pointer;
+}
+
+.todo-noData {
+  margin: 20px 0;
+  color: #e7e7e7;
+}
